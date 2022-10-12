@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/fotos-premium/fundo-do-espaco-caotico-planetas-estrelas-e-galaxias-no-espaco-sideral-mostrando-a-beleza-da-exploracao-espacial_372999-412.jpg?w=2000);
+}
+
+.globe{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-image: url(https://www.guiageografico.com/mapas/mapa/imagem-mundo.jpg);
+    background-size: cover;
+    box-shadow: -25px -25px 25px black inset , 10px 10px 30px white inset, 0px 0px 20px #3a96ff;
+    animation: rotate 45s linear infinite;
+}
+@keyframes rotate {
+    to{background-position: 100%;}
+}

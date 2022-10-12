@@ -1,0 +1,1 @@
+Olá, esse projeto é a recriação do Planeta Terra no espaço com HTML e CSS.
